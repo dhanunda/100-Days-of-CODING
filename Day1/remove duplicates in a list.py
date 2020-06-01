@@ -1,3 +1,4 @@
-mylist=[1,2,1,3,4,1,5,6]
+n=int(input()) #size of the list
+mylist=list(input().split())#use space to take input don't use enter
 mylist = list(dict.fromkeys(mylist))
 print(mylist)
